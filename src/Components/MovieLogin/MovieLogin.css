@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Movielogin_Content
+{
+    height: max-content;
+    width: 350px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+form
+{
+    border: 1px solid #b0b0b07b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4px;
+    padding: 19px 60px;
+    position: relative;
+    font-size: small;
+    font-family: 'Poppins', sans-serif;
+}
+.Movielogin_Userinput > input[type="text"],.Movielogin_Userinput > input[type="password"]
+{
+    width: 310px;
+    height: 30px;
+    outline: none;
+    border: 1px solid #a6a6a6;
+    border-radius: 4px;
+    color: #000;
+    padding-left: 9px;
+}
+.Movielogin_Content_img
+{
+    text-align: center;
+    margin-top: 9px;
+}
+.Movielogin_Userinput
+{
+    padding: 9px;
+    font-weight: 500;
+}
+.Movielogin_Content_title
+{
+    position: absolute;
+    left: 19px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.Movielogin_Content_title > p
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Movielogin_Userinput1
+{
+    margin-top: 34px;
+}
+.Movielogin_Signinbtn > button
+{
+    /* background-color: red; */
+    outline: none;
+    border: 1px solid #9c7e31;
+    width: 310px;
+    height: 32px;
+    /* background: #f0c14b; */
+    cursor: pointer;
+    background: linear-gradient(to top, #f0c14b, #ffeab6);
+    border-radius: 4px;
+}
+.Movielogin_Content_p1
+{
+    width: 305px;
+    padding-top: 19px;
+    font-size: smaller;
+    padding-bottom: 19px;
+}
+.Singin_confirm
+{
+    width: 305px;
+    padding-top: 65px;
+    /* background-color: red; */
+    /* box-shadow: 0px -4px 40px -30px rgb(96, 96, 96); */
+}
+/* .Movielogin_Content_line
+{
+    background-color: transparent;
+    height: 10px;
+    width: 170px;
+    box-shadow: -2px 9px 19px 0px rgba(96, 96, 96, 0.327);
+} */

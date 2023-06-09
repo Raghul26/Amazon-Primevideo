@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.languageimage
+{
+    /* background-color: red; */
+    width: 100%;
+    margin-top: 289px;
+    z-index: 400;
+}
+.languageimage_movie1 img
+{
+    width: 140px;
+}
+.language_moviecontent
+{
+    display: flex;
+    /* overflow-x: scroll; */
+    margin-left: 100px;
+    /* width: 100%; */
+    cursor: pointer;
+}
+.language_moviecontent1
+{
+    margin-left: 10px;
+}
+.language_moviecontent1::-webkit-scrollbar
+{
+    scroll-behavior: smooth;
+    display: none;
+}
+.language_moviecontent::-webkit-scrollbar
+{
+    scroll-behavior: smooth;
+    display: none;
+}
+.language_moviecontent1
+{
+    margin: 12px;
+}
+.language_moviecontent .mySwiper .swiper-slide 
+{
+    flex-shrink: 100;
+    width: 10px;
+    height: 100%;
+    position: relative;
+    transition-property: transform;
+}
+.swiper1
+{
+    width: 90%;
+    margin-left: 0;
+    margin-right: 0;
+}

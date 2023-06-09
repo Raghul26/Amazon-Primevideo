@@ -1,0 +1,1029 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Homemovies {
+    height: 100vh;
+    width: 100%;
+}
+
+.love {
+    font-size: 40px;
+    margin-left: 50px;
+    color: #fff;
+    /* background-color: red; */
+    height: max-content;
+    width: 100%;
+}
+
+.love1 img {
+    width: 100%;
+}
+
+.mySwiper .swiper-button-prev {
+    left: 60px;
+    right: auto;
+}
+
+.mySwiper .swiper-pagination-bullet-active {
+    opacity: var(--swiper-pagination-bullet-opacity, 1);
+    background-color: #fff;
+}
+
+:root {
+    --swiper-navigation-color: "white";
+}
+
+.swiper-button-next:after:hover,
+.swiper-button-prev:after:hover {
+    box-shadow: 0px 9px 40px -4px #000;
+}
+
+.Homemovies_data {
+    position: relative;
+}
+
+.Moviesdata {
+    /* overflow-x: scroll; */
+    width: 100%;
+    display: flex;
+    position: absolute;
+    /* background-color: #1a222e; */
+    padding-left: 50px;
+}
+
+/* .Moviesdata::-webkit-scrollbar
+{
+    scroll-behavior: smooth;
+} */
+.Moviesdata_img1 {
+    padding: 9px;
+    cursor: pointer;
+}
+
+.Moviesdata_name {
+    padding-left: 50px;
+}
+
+.Moviesdata_img1 img {
+    width: 310px;
+    border-radius: 4px;
+}
+
+.Moviesdata_img2 {
+    margin-left: 50px;
+    margin-bottom: 19px;
+}
+
+.Moviesdata_name p {
+    margin-left: 70px;
+    color: #fff;
+    font-size: 19px;
+    padding-top: 10px;
+    font-weight: 500;
+    width: max-content;
+    padding-left: 40px;
+    left: 0;
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+}
+
+.language_movietitle {
+    font-size: 19px;
+    font-weight: 500;
+    width: max-content;
+    margin-left: 110px;
+    color: #fff;
+    /* background-color: red; */
+    font-family: 'Poppins', sans-serif;
+}
+
+.language_movietitle {
+    position: absolute;
+    top: -19px;
+}
+
+.language_content {
+    position: relative;
+}
+
+/* .Homemovies_data
+{
+    height: 35vh;
+} */
+.Movies {
+    overflow-y: scroll;
+    /* background-color: red; */
+    height: 100vh;
+    position: relative;
+}
+
+/* .Movies1
+{
+    height: max-content;
+    background-color: red;
+}
+.Movies1::-webkit-scrollbar
+{
+    scroll-behavior: smooth;
+    display: none;
+} */
+.Movies::-webkit-scrollbar {
+    scroll-behavior: smooth;
+    display: none;
+}
+
+.Movies2 {
+    padding-top: 0px;
+}
+
+.Homemovies_content2 {
+    margin-top: -70px;
+}
+
+.Moviesdata_name {
+    display: flex;
+}
+
+.Moviesdata_img1 {
+    margin-top: 50px;
+}
+
+.Movieprime_img {
+    margin-top: -50px;
+    margin-left: 105px;
+}
+
+.Moviesdata_img1 img {
+    position: relative;
+}
+
+.Moviesdata1 {
+    padding: 9px;
+    cursor: pointer;
+    /* background-color: red; */
+    padding-bottom: 90px;
+    position: absolute;
+    top: 30px;
+    bottom: 0;
+    left: 110px;
+    right: 0;
+    width: 300px;
+    height: max-content;
+    font-size: 12px;
+    z-index: 100;
+    opacity: 0;
+}
+
+.Moviesdata1 img {
+    margin-left: -11px;
+    width: 310px;
+}
+
+.Moviesdata_desc2 {
+    padding-top: 19px;
+}
+
+.Moviesdata1 p {
+    width: 312px;
+    height: max-content;
+    font-size: 12px;
+    padding: 0;
+    margin: auto 10px;
+    margin-top: -44px;
+    /* background: linear-gradient(to top, #0f171e, #0f171ef1); */
+    box-shadow: inset -19px -219px 29px -19px #0f171e;
+    padding: 9px;
+    margin-left: -2px;
+}
+
+.Moviesdata1:hover {
+    opacity: 1;
+    transform: scale(1.1);
+    transition: .2s;
+}
+
+.Moviesdatabtn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 9px;
+    padding: 4px;
+    z-index: 200;
+}
+
+.Moviesdatabtn_btn1 {
+    width: 100px;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Moviesdatabtn_playicon {
+    background-color: rgb(10, 10, 10);
+    height: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    transition: .4s;
+    font-size: 15px;
+}
+
+.Moviesdatabtn_playicon:hover {
+    background-color: #00a8e1;
+    border: none;
+    transition: .4s;
+}
+
+.Moviesdatabtn_btn2 {
+    font-size: 19px;
+    width: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Moviesdata_details {
+    margin-left: 19px;
+}
+
+.Moviesdata_details_p1 {
+    font-size: 15px;
+    color: #00a8e1;
+}
+
+.Moviesdata_primevideos {
+    position: absolute;
+    top: 9px;
+    left: -4px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #00a8e1;
+    z-index: 90;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 40px;
+    width: 90px; */
+    padding: 4px 9px 4px 9px;
+    border-radius: 0px 19px 19px 0px;
+    border: 2px solid #000;
+}
+
+.Moviecontent_title {
+    background-color: #1a222e;
+    width: 100%;
+}
+
+.Movies3 {
+    /* height: max-content; */
+    background-color: #1a222e;
+    margin-top: -64px;
+}
+
+
+/* ------------------ movies detilas poup start ------------------ */
+
+.Moviesdatabtn-tooltip::after,
+.Moviesdatabtn-tooltip::before {
+    content: "";
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 175px;
+    background-color: #424955;
+}
+
+.Moviesdatabtn-tooltip-hide::after,
+.Moviesdatabtn-tooltip-hide::before {
+    content: "";
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 175px;
+    background-color: #424955;
+}
+
+.Moviesdatabtn-tooltip::before {
+    content: attr(data-tooltip);
+    color: #fff;
+    font-size: 15px;
+    width: 160px;
+    text-align: center;
+    top: -15px;
+    left: 140px;
+    padding: 4px;
+    opacity: 0;
+    transform-origin: bottom;
+}
+
+.Moviesdatabtn-tooltip::after {
+    content: '';
+    height: 9px;
+    width: 9px;
+    top: 13px;
+    left: 229px;
+    z-index: 90;
+    transform: rotate(45deg);
+    opacity: 0;
+    transform-origin: top;
+}
+
+.Moviesdatabtn-tooltip-hide::before {
+    content: attr(data-tooltip);
+    color: #fff;
+    height: auto;
+    width: 140px;
+    text-align: center;
+    font-size: 15px;
+    top: -15px;
+    left: 195px;
+    padding: 4px;
+    opacity: 0;
+    background-color: #424955;
+    z-index: 90;
+    transform-origin: bottom;
+}
+
+.Moviesdatabtn-tooltip-hide::after {
+    content: '';
+    height: 9px;
+    width: 9px;
+    top: 13px;
+    left: 275px;
+    transform: rotate(45deg);
+    opacity: 0;
+    background-color: #424955;
+    transform-origin: top;
+}
+
+.Moviesdatabtn-tooltip:hover::before,
+.Moviesdatabtn-tooltip:hover::after {
+    opacity: 1;
+    transition: .4s;
+}
+
+.Moviesdata_details_title {
+    font-size: 15px;
+}
+
+.Moviesdata_details_desc {
+    font-size: 12px;
+}
+
+.Moviesdata_title {
+    padding: 4px 0;
+}
+
+/* ------------------ movies detilas poup end ------------------ */
+
+
+
+
+
+/* ------------------ moviecontent-2 ------------------*/
+
+/* Moviecontwnt-2 start*/
+.Moviesdata1-content2 {
+    padding: 9px;
+    cursor: pointer;
+    /* background-color: red; */
+    padding-bottom: 90px;
+    position: absolute;
+    top: 30px;
+    bottom: 0;
+    left: 427px;
+    right: 0;
+    width: 300px;
+    height: max-content;
+    font-size: 12px;
+    z-index: 100;
+    opacity: 0;
+}
+
+.Moviesdata1-content2 img {
+    width: 310px;
+}
+
+.Moviesdata1-content2 p {
+    width: 311px;
+    height: max-content;
+    font-size: 12px;
+    padding: 0;
+    margin: auto 10px;
+    margin-top: -42px;
+    /* background: linear-gradient(to top, #0f171e, #0f171ef1); */
+    box-shadow: inset -19px -219px 29px -19px #0f171e;
+    padding: 9px;
+    margin-left: 9px;
+}
+
+.Moviesdata1-content2:hover {
+    opacity: 1;
+    transform: scale(1.1);
+    transition: .2s;
+}
+
+.Moviesdata_primevideos-2 {
+    position: absolute;
+    top: 9px;
+    left: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #00a8e1;
+    z-index: 90;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 40px;
+    width: 90px; */
+    padding: 4px 9px 4px 9px;
+    border-radius: 0px 19px 19px 0px;
+    border: 2px solid #000;
+}
+
+/* ------------------ moviecontent-2 ------------------*/
+
+
+
+
+/* ------------------ moviecontent-3 ------------------*/
+
+/* Moviecontwnt-3 start*/
+.Moviesdata1-content3 {
+    padding: 9px;
+    cursor: pointer;
+    padding-bottom: 90px;
+    position: absolute;
+    top: 30px;
+    bottom: 0;
+    left: 756px;
+    right: 0;
+    width: 300px;
+    height: max-content;
+    font-size: 12px;
+    z-index: 100;
+    opacity: 0;
+}
+
+.Moviesdata1-content3 img {
+    width: 310px;
+}
+
+.Moviesdata1-content3 p {
+    width: 311px;
+    height: max-content;
+    font-size: 12px;
+    padding: 0;
+    margin: auto 10px;
+    margin-top: -42px;
+    /* background: linear-gradient(to top, #0f171e, #0f171ef1); */
+    box-shadow: inset -19px -219px 29px -19px #0f171e;
+    padding: 9px;
+    margin-left: 9px;
+}
+
+.Moviesdata1-content3:hover {
+    opacity: 1;
+    transform: scale(1.1);
+    transition: .2s;
+}
+
+.Moviesdata_primevideos-3 {
+    position: absolute;
+    top: 9px;
+    left: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #00a8e1;
+    z-index: 90;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 40px;
+    width: 90px; */
+    padding: 4px 9px 4px 9px;
+    border-radius: 0px 19px 19px 0px;
+    border: 2px solid #000;
+}
+
+/* ------------------ moviecontent-3 ------------------*/
+
+
+
+/* ------------------ moviecontent-4 ------------------*/
+
+/* Moviecontwnt-4 start*/
+.Moviesdata1-content4 {
+    padding: 9px;
+    cursor: pointer;
+    padding-bottom: 90px;
+    position: absolute;
+    top: 30px;
+    bottom: 0;
+    left: 1084px;
+    right: 0;
+    width: 300px;
+    height: max-content;
+    font-size: 12px;
+    z-index: 100;
+    opacity: 0;
+}
+
+.Moviesdata1-content4 img {
+    width: 310px;
+}
+
+.Moviesdata1-content4 p {
+    width: 311px;
+    height: max-content;
+    font-size: 12px;
+    padding: 0;
+    margin: auto 10px;
+    margin-top: -42px;
+    /* background: linear-gradient(to top, #0f171e, #0f171ef1); */
+    box-shadow: inset -19px -219px 29px -19px #0f171e;
+    padding: 9px;
+    margin-left: 9px;
+}
+
+.Moviesdata1-content4:hover {
+    opacity: 1;
+    transform: scale(1.1);
+    transition: .2s;
+}
+
+.Moviesdata_primevideos-3 {
+    position: absolute;
+    top: 9px;
+    left: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #00a8e1;
+    z-index: 90;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 40px;
+    width: 90px; */
+    padding: 4px 9px 4px 9px;
+    border-radius: 0px 19px 19px 0px;
+    border: 2px solid #000;
+}
+
+/* ------------------ moviecontent-4 ------------------*/
+
+
+/* ------------------ moviecontent-5 ------------------*/
+
+/* Moviecontwnt-5 start*/
+.Moviesdata1-content5 {
+    padding: 9px;
+    cursor: pointer;
+    padding-bottom: 90px;
+    position: absolute;
+    top: 30px;
+    bottom: 0;
+    left: 1412px;
+    right: 0;
+    width: 300px;
+    height: max-content;
+    font-size: 12px;
+    z-index: 100;
+    opacity: 0;
+}
+
+.Moviesdata1-content5 img {
+    width: 310px;
+}
+
+.Moviesdata1-content5 p {
+    width: 311px;
+    height: max-content;
+    font-size: 12px;
+    padding: 0;
+    margin: auto 10px;
+    margin-top: -42px;
+    /* background: linear-gradient(to top, #0f171e, #0f171ef1); */
+    box-shadow: inset -19px -219px 29px -19px #0f171e;
+    padding: 9px;
+    margin-left: 9px;
+}
+
+.Moviesdata1-content5:hover {
+    opacity: 1;
+    transform: scale(1.1);
+    transition: .2s;
+}
+
+.Moviesdata_primevideos-3 {
+    position: absolute;
+    top: 9px;
+    left: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #00a8e1;
+    z-index: 90;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 40px;
+    width: 90px; */
+    padding: 4px 9px 4px 9px;
+    border-radius: 0px 19px 19px 0px;
+    border: 2px solid #000;
+}
+
+/* ------------------ moviecontent-5 ------------------*/
+
+/* ------------------ moviecontent-6 ------------------*/
+
+/* Moviecontwnt-6 start*/
+.Moviesdata1-content6 {
+    padding: 9px;
+    cursor: pointer;
+    padding-bottom: 90px;
+    position: absolute;
+    top: 40px;
+    bottom: 0;
+    left: 100px;
+    right: 0;
+    width: 300px;
+    height: max-content;
+    font-size: 12px;
+    z-index: 200;
+    opacity: 0;
+}
+
+.Moviesdata1-content6 img {
+    width: 310px;
+}
+
+.Moviesdata1-content6 p {
+    width: 311px;
+    height: max-content;
+    font-size: 12px;
+    padding: 0;
+    color: #fff;
+    margin: auto 10px;
+    margin-top: -42px;
+    position: relative;
+    /* background: linear-gradient(to top, #0f171e, #0f171e); */
+    box-shadow: inset -19px -219px 29px -19px #0f171e;
+    padding: 9px;
+    margin-left: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Moviesdata1-content6:hover {
+    opacity: 1;
+    transform: scale(1.1);
+    transition: .2s;
+}
+
+.Moviesdata_primevideos-6 {
+    position: absolute;
+    top: 9px;
+    left: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #00a8e1;
+    z-index: 90;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 40px;
+    width: 90px; */
+    padding: 4px 9px 4px 9px;
+    border-radius: 0px 19px 19px 0px;
+    border: 2px solid #000;
+}
+
+/* ------------------ moviecontent-6 ------------------*/
+
+
+
+
+/* ------------------ moviecontent-7 ------------------*/
+
+/* Moviecontwnt-7 start*/
+.Moviesdata1-content7 {
+    padding: 9px;
+    cursor: pointer;
+    padding-bottom: 90px;
+    position: absolute;
+    top: 40px;
+    bottom: 0;
+    left: 428px;
+    right: 0;
+    width: 300px;
+    height: max-content;
+    font-size: 12px;
+    z-index: 200;
+    opacity: 0;
+}
+
+.Moviesdata1-content7 img {
+    width: 310px;
+}
+
+.Moviesdata1-content7 p {
+    width: 311px;
+    height: max-content;
+    font-size: 12px;
+    padding: 0;
+    color: #fff;
+    margin: auto 10px;
+    margin-top: -42px;
+    position: relative;
+    /* background: linear-gradient(to top, #0f171e, #0f171e); */
+    box-shadow: inset -19px -219px 29px -19px #0f171e;
+    padding: 9px;
+    margin-left: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Moviesdata1-content7:hover {
+    opacity: 1;
+    transform: scale(1.1);
+    transition: .2s;
+}
+
+.Moviesdata_primevideos-7 {
+    position: absolute;
+    top: 9px;
+    left: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #00a8e1;
+    z-index: 90;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 40px;
+    width: 90px; */
+    padding: 4px 9px 4px 9px;
+    border-radius: 0px 19px 19px 0px;
+    border: 2px solid #000;
+}
+
+/* ------------------ moviecontent-7 ------------------*/
+
+
+
+
+
+
+/* ------------------ moviecontent-8 ------------------*/
+
+/* Moviecontwnt-8 start*/
+.Moviesdata1-content8 {
+    padding: 9px;
+    cursor: pointer;
+    padding-bottom: 90px;
+    position: absolute;
+    top: 40px;
+    bottom: 0;
+    left: 756px;
+    right: 0;
+    width: 300px;
+    height: max-content;
+    font-size: 12px;
+    z-index: 200;
+    opacity: 0;
+}
+
+.Moviesdata1-content8 img {
+    width: 310px;
+}
+
+.Moviesdata1-content8 p {
+    width: 311px;
+    height: max-content;
+    font-size: 12px;
+    padding: 0;
+    color: #fff;
+    margin: auto 10px;
+    margin-top: -42px;
+    position: relative;
+    /* background: linear-gradient(to top, #0f171e, #0f171e); */
+    box-shadow: inset -19px -234px 29px -19px #0f171e;
+    padding: 9px;
+    margin-left: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Moviesdata1-content8:hover {
+    opacity: 1;
+    transform: scale(1.1);
+    transition: .2s;
+}
+
+.Moviesdata_primevideos-8 {
+    position: absolute;
+    top: 9px;
+    left: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #00a8e1;
+    z-index: 90;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 40px;
+    width: 90px; */
+    padding: 4px 9px 4px 9px;
+    border-radius: 0px 19px 19px 0px;
+    border: 2px solid #000;
+}
+
+/* ------------------ moviecontent-8 ------------------*/
+
+
+
+
+/* ------------------ moviecontent-9 ------------------*/
+
+/* Moviecontwnt-9 start*/
+.Moviesdata1-content9 {
+    padding: 9px;
+    cursor: pointer;
+    padding-bottom: 90px;
+    position: absolute;
+    top: 40px;
+    bottom: 0;
+    left: 1412px;
+    right: 0;
+    width: 300px;
+    height: max-content;
+    font-size: 12px;
+    z-index: 200;
+    opacity: 0;
+}
+
+.Moviesdata1-content9 img {
+    width: 310px;
+}
+
+.Moviesdata1-content9 p {
+    width: 311px;
+    height: max-content;
+    font-size: 12px;
+    padding: 0;
+    color: #fff;
+    margin: auto 10px;
+    margin-top: -42px;
+    position: relative;
+    /* background: linear-gradient(to top, #0f171e, #0f171e); */
+    box-shadow: inset -19px -260px 29px -19px #0f171e;
+    padding: 9px;
+    margin-left: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Moviesdata1-content9:hover {
+    opacity: 1;
+    transform: scale(1.1);
+    transition: .2s;
+}
+
+.Moviesdata_primevideos-9 {
+    position: absolute;
+    top: 9px;
+    left: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #00a8e1;
+    z-index: 90;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 40px;
+    width: 90px; */
+    padding: 4px 9px 4px 9px;
+    border-radius: 0px 19px 19px 0px;
+    border: 2px solid #000;
+}
+
+/* ------------------ moviecontent-7 ------------------*/
+
+/* ------------------ movies detilas poup start-2 ------------------ */
+
+/* .Moviesdatabtn-tooltip2::after,.Moviesdatabtn-tooltip2::before
+{
+    content: "";
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 175px;
+    background-color: #424955;
+}
+.Moviesdatabtn-tooltip-hide::after,.Moviesdatabtn-tooltip-hide::before
+{
+    content: "";
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 175px;
+    background-color: #424955;
+}
+.Moviesdatabtn-tooltip2::before
+{
+    content: attr(data-tooltip);
+    color: #fff;
+    font-size: 15px;
+    width: 160px;
+    text-align: center;
+    top: 160px;
+    left: 140px;
+    padding: 4px;
+    opacity: 0;
+    transform-origin: bottom;
+}
+.Moviesdatabtn-tooltip2::after
+{
+    content: '';
+    height: 9px;
+    width: 9px;
+    top: 189px;
+    left: 234px;
+    z-index: 90;
+    transform: rotate(45deg);
+    opacity: 0;
+    transform-origin: top;
+}
+.Moviesdatabtn-tooltip-hide2::before
+{
+    content: attr(data-tooltip);
+    color: #fff;
+    height: auto;
+    width: 140px;
+    text-align: center;
+    font-size: 15px;
+    top: 160px;
+    left: 195px;
+    padding: 4px;
+    opacity: 0;
+    background-color: #424955;
+    z-index: 90;
+    transform-origin: bottom;
+}
+.Moviesdatabtn-tooltip-hide2::after
+{
+    content: '';
+    height: 9px;
+    width: 9px;
+    top: 189px;
+    left: 280px;
+    transform: rotate(45deg);
+    opacity: 0;
+    background-color: #424955;
+    transform-origin: top;
+}
+.Moviesdatabtn-tooltip2:hover::before,.Moviesdatabtn-tooltip2:hover::after
+{
+    opacity: 1;
+    transition: .4s;
+}
+.Moviesdata_details_title
+{
+    font-size: 15px;
+}
+.Moviesdata_details_desc
+{
+    font-size: 12px;
+}
+.Moviesdata_title
+{
+    padding: 4px 0;
+} */
+
+/* ------------------ movies detilas poup end-2 ------------------ */
+
+/* view changing */
+@media (min-width:320px) and (max-width:420px) {
+    .mySwiper .swiper-button-prev::after {
+        left: 60px;
+        right: auto;
+        font-size: 23px;
+    }
+    .mySwiper .swiper-button-next::after {
+        font-size: 23px;
+    }
+    .Moviesdata_name p {
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Homemovies
+{
+    height: 100vh;
+    width: 100%;
+}
+.Movieprime_primeimg img
+{
+    width: 250px;
+    margin-top: -20px;
+    z-index: 200;
+}
+.Moviecount
+{
+    display: flex;
+    padding: 9px;
+    margin-top: 50px;
+}
+.primevideos
+{
+    margin-top: -140px;
+    z-index: 200;
+}
+.Moviecount p
+{
+    font-size: 50px;
+    font-weight: 500;
+    color: #fff;
+    position: absolute;
+    left: -9px;
+    top: 229px;
+    display: none;
+}
+.Moviecount1 p
+{
+    position: absolute;
+    left: -34px;
+}
+.PrimeVideoContent
+{
+    width: 100%;
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.PrimeVideoContent img
+{
+    width: 100%;
+    max-width: 70%;
+    align-items: center;
+    z-index: 900;
+}
+.PrimeVideoContent_videos
+{
+    width: 950px;
+    z-index: 200px;
+}
+.Moviecountactive img
+{
+    border: 4px #fff solid;
+    border-radius: 9px;
+}
+.PrimeVideoContent_Details1
+{
+    height: 534.4px;
+    z-index: 100;
+    width: 900px;
+    position: absolute;
+    top: 0px;
+    box-shadow: inset 740px -90px 90px -150px #0f171e;
+    /* background-color: #0f171e; */
+    color: #fff;
+    font-size: 21px;
+    font-family: 'Poppins', sans-serif;
+}
+.PrimeVideoContent_Details
+{
+    width: max-content;
+    
+    /* z-index: 150; */
+    /* position: absolute;
+    z-index: 100;
+    top: 1237px;
+    right: 0;
+    left: 320px;
+    height: 564px;
+    color: #fff;
+    align-items: center;
+    width: 100%;
+    max-width: 70%;
+    font-size: 21px;
+    box-shadow: inset 640px -20px 90px -70px rgba(0, 0, 0, 0.604);
+    font-family: 'Poppins', sans-serif; */
+    
+}
+.PrimeVideoContent_header
+{
+    margin: 10px 9px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 140px;
+}
+.PrimeVideoContent_span1
+{
+    color: #00a8e1;
+    font-weight: bold;
+    padding-bottom: 9px;
+}
+.PrimeVideoContent_span2
+{
+    color: #fff;
+    font-weight:600;
+    letter-spacing: 4px;
+}
+.PrimeVideoContent_moviename
+{
+    margin-left: 9px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+.PrimeVideoContent_moviename_span1
+{
+    padding-bottom: 9px;
+}
+.PrimeVideoContent_span3
+{
+    font-size: 15px;
+}
+.PrimeVideoContent_moviename_contentrating
+{
+    border: 2px #8197a4 solid;
+    color: #8197a4;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 15px;
+    margin-left: 4px;
+}
+.PrimeVideoContentbtn
+{
+    margin-left: 9px;
+    display: flex;
+    align-items: center;
+}
+.PrimeVideoContentbtn button
+{
+    padding: 17px 30px;
+    border-radius: 40px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    background-color: #2873b5;
+    color: #fff;
+    cursor: pointer;
+}
+.PrimeVideoContentbtn_plush
+{
+    background-color: #425265;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    font: 15px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 50%;
+    margin-left: 15px;
+    cursor: pointer;
+}
+@media (min-width:375px) and (max-width:400px)
+{
+.Moviecount p
+{
+    font-size: 45px;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    left: -5px;
+    top: 229px;
+}
+}
