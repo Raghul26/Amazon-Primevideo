@@ -3,7 +3,11 @@
 - This is my Amazon-Prime Demo video applicationm Design. In the reactjs
 
 
-https://user-images.githubusercontent.com/90317197/180481049-9e6c28f3-bea8-4e10-be95-9f7d5f6f61b9.mp4
+
+
+https://github.com/Raghul26/Amazon-Primevideo/assets/90317197/80bb4d92-5d12-4ce0-a38e-a980e59cf1c7
+
+
 
 
 ## Amazon-Primevideo
